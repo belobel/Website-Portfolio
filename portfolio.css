@@ -1,0 +1,35 @@
+.c1{
+    grid-area: main;
+    background-color: blueviolet;
+
+}
+
+.c2{
+    grid-area: left;
+    background-color: aquamarine;
+    
+}
+
+.c3{
+    grid-area: centre;
+    background-color: bisque;
+    
+  
+}
+
+.c4{
+    grid-template-rows: 30em;
+    grid-area: right;
+    background-color: aquamarine;
+  
+}
+
+body {
+    display: grid;
+    grid-template-columns: 33% 33% 32%;
+    grid-template-areas: "main main main" 
+    "left centre right" ;
+    row-gap: 3em;
+    column-gap: 1em;
+    
+    }
