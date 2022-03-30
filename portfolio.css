@@ -1,35 +1,60 @@
-.c1{
-    grid-area: main;
-    background-color: blueviolet;
-
-}
-
-.c2{
-    grid-area: left;
-    background-color: aquamarine;
-    
-}
-
-.c3{
-    grid-area: centre;
-    background-color: bisque;
-    
+header {
+    grid-area: header;
+    background-color: blue;
+    font-size: 4em;
+    text-align: center;
   
 }
 
-.c4{
+p1{
+    text-align: right;
+    position: absolute;
+    top: 4em;
+    font-size:x-small;
+
+      
+}
+
+.c1 {
+    grid-area: main;
+    background-color: blueviolet;
+    height: 16em;
+
+
+}
+
+.c2 {
+    grid-area: left;
+    background-color: aquamarine;
+    height: 15em;
+
+
+}
+
+.c3 {
+    grid-area: centre;
+    background-color: bisque;
+    height: 15em;
+}
+
+.c4 {
     grid-template-rows: 30em;
     grid-area: right;
     background-color: aquamarine;
-  
+    height: 15em;
+
 }
 
 body {
     display: grid;
-    grid-template-columns: 33% 33% 32%;
-    grid-template-areas: "main main main" 
-    "left centre right" ;
-    row-gap: 3em;
-    column-gap: 1em;
-    
-    }
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+        "header header header"
+        "main main main"
+        "left centre right";
+    row-gap: 2em;
+    column-gap: 1.5em;
+
+ 
+
+}
