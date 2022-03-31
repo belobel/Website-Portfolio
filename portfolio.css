@@ -1,18 +1,45 @@
 header{
     grid-area: header;
     background-color: blue;
-    font-size: 4em;
-    text-align: center;
+    
   
 }
 
 
-      
+ h1{
+    font-size: 3em;
+    text-align: center;
+ }    
+ 
+ h2{
+    display: inline;
+    font-size: 1em;
+    padding-left: 36em;
+    padding-right: 3em;
+     
+        }
+ h3{
+    display: inline;
+    font-size: 1em; 
+    padding-right: 3em;
+   
+ }
+ 
+ h4{
+    display: inline;
+    font-size: 1em;
+    padding-right:3em;
+ }
+ h5{
+    display: inline;
+    font-size: 1em;
+    
+ }
 
 .c1 {
     grid-area: main;
     background-color: blueviolet;
-    height: 16em;
+    height:17em;
 
 
 }
@@ -36,7 +63,6 @@ header{
     grid-area: right;
     background-color: aquamarine;
     height: 15em;
-
 }
 
 body {
