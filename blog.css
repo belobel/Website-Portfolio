@@ -1,0 +1,70 @@
+header{
+    grid-area: header;
+    background-color: blue;
+    
+  
+}
+
+
+h1{
+    font-size: 3em;
+    text-align: center;
+ }    
+ 
+ h2{
+    display: inline;
+    font-size: 1em;
+    padding-left: 36em;
+    padding-right: 3em;
+     
+        }
+ h3{
+    display: inline;
+    font-size: 1em; 
+    padding-right: 3em;
+   
+ }
+ 
+ h4{
+    display: inline;
+    font-size: 1em;
+    padding-right:3em;
+ }
+ h5{
+    display: inline;
+    font-size: 1em;
+    
+ }
+
+.c1 {
+    grid-area: left;
+    background-color: blueviolet;
+    height:35em;
+
+
+}
+
+.c2 {
+    grid-area: centre;
+    background-color: aquamarine;
+    height: 35em;
+
+
+}
+
+.c3 {
+    grid-area: right;
+    background-color: bisque;
+    height: 35em;
+}
+
+
+body{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+        "header header header"
+        "left centre right";
+    row-gap: 2em;
+    column-gap: 1.5em; 
+}
