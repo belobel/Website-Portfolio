@@ -1,40 +1,48 @@
 body{
-    background-color: black;
+    
+   background-image: url(../img/satin.jpg);
 }
  
  
  h1{
-     color: white;
+     color: #D4AF37;
     display: inline;
-    font-size: 1em;
-    padding-left: 36em;
+    font-size: 1.2em;
+    padding-left: 30em;
     padding-right: 3em;
-     
+    text-decoration: underline;
+    text-decoration-color: #B48967;
         }
         h2{
-            color: white;
+            color:  #D4AF37;
             display: inline;
-            font-size: 1em;
+            font-size: 1.2em;
             padding-right:3em;
+            text-decoration: underline;
+            text-decoration-color: #B48967;
          }  
  h3{
-    color: white;
+    color:#D4AF37;
     display: inline;
-    font-size: 1em; 
+    font-size: 1.2em; 
     padding-right: 3em;
-   
+    text-decoration: underline;
+    text-decoration-color: #B48967;
  }
  
  h4{
-    color: white;
+    color: #D4AF37;
     display: inline;
-    font-size: 1em;
+    font-size: 1.2em;
     padding-right:3em;
+    text-decoration: underline;
+    text-decoration-color: #B48967 ;
  }
 
 h5{
-padding-top: 1em;
-    padding-left: 8em;
+   font-style: oblique;
+   padding-top: 1em;
+    padding-left: 7em;
     font-size: 5em;
     font-weight: bold;
     color: white;
@@ -45,8 +53,8 @@ padding-top: 1em;
 p1{
  display: block;
     color: white;
-    font-size: large; 
-   padding-left: 35em;
+    font-size: large;
+   padding-left: 30em;
     
    
   
