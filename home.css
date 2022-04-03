@@ -1,19 +1,54 @@
 body{
     background-color: black;
 }
+ 
+ 
+ h1{
+     color: white;
+    display: inline;
+    font-size: 1em;
+    padding-left: 36em;
+    padding-right: 3em;
+     
+        }
+        h2{
+            color: white;
+            display: inline;
+            font-size: 1em;
+            padding-right:3em;
+         }  
+ h3{
+    color: white;
+    display: inline;
+    font-size: 1em; 
+    padding-right: 3em;
+   
+ }
+ 
+ h4{
+    color: white;
+    display: inline;
+    font-size: 1em;
+    padding-right:3em;
+ }
 
-header{
-   font-size: 5em;
-   font-weight: bold;
-   color: white;
-   padding-left: 5em;
-
+h5{
+padding-top: 1em;
+    padding-left: 8em;
+    font-size: 5em;
+    font-weight: bold;
+    color: white;
+ 
 
 }
 
-p{
+p1{
+ display: block;
     color: white;
-    font-size: medium;  
- padding-left: 15em;
+    font-size: large; 
+   padding-left: 35em;
+    
+   
+  
 }
 
