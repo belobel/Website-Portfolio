@@ -1,0 +1,125 @@
+.left{
+grid-area: left;
+height: 34.5em; 
+width: 15em;
+border-radius: 1em;
+background-color: #1a512e;
+background-image: url(../img/gg2.png);
+background-size: 82em;
+
+padding: 5em;
+text-align: center;
+}
+
+.right{
+    grid-area: right;
+}
+
+
+body {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-areas:
+   "left right right";
+   background-color: black;
+
+}
+form{
+    display: grid;
+    grid-gap: 1em;
+    resize: none;
+    height: 5em;
+    padding: 4em;
+    padding-left: 12em;
+    font-weight: bold;
+    font-size: larger;
+}
+
+textarea{
+    resize: none;
+    width: 30em;
+    height: 10em;
+    border: 2px solid #E93BE9;
+}
+
+input {
+    border: 2px solid #E93BE9;
+    color: #fff;
+    height: 2em;
+    width: 30em;
+
+    }
+    input::placeholder {
+    color: #ccc;
+    }
+
+    input[type=button], input[type=submit], input[type=reset] {
+        background-color:#E93BE9;
+        border: none;
+        color: white;
+        width: 30.5em;
+        font-weight: bold;
+        cursor: pointer;
+      }
+
+header{
+    padding: 2em;
+}
+   
+h1{
+display: inline;
+padding-left: 10em;
+padding-right: 3em;
+font-size: 1.2em;
+
+}
+
+h2{
+    display: inline;
+    padding-right: 3em;
+    font-size: 1.2em;
+}
+
+h3{
+display: inline;
+padding-right: 3em;
+font-size: 1.2em;
+}
+
+h4{
+display: inline;
+    font-size: 1.2em;
+}
+
+p1{
+font-size: 3em;
+font-weight: bolder;
+color: white;
+
+}
+
+p2{
+display:block;
+padding: 3em;
+font-size: 1.5em;
+font-weight: bold;
+color: white;
+}
+
+p3{
+font-size: 1.2em;
+color: white;
+}
+
+p4{
+    display: block;
+    padding: 3em;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white;
+}
+
+p5{
+font-size: 1.2em;
+color: white;
+}
