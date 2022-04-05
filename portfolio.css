@@ -1,7 +1,6 @@
 header{
     grid-area: header;
-    background-color: blue;
-    
+    background-position: 1em;
   
 }
 
@@ -9,6 +8,7 @@ header{
  h1{
     font-size: 3em;
     text-align: center;
+
  }    
  
  h2{
@@ -17,11 +17,13 @@ header{
     padding-left: 36em;
     padding-right: 3em;
      
-        }
+}
+
  h3{
     display: inline;
     font-size: 1em; 
     padding-right: 3em;
+   
    
  }
  
@@ -29,40 +31,51 @@ header{
     display: inline;
     font-size: 1em;
     padding-right:3em;
+   
  }
  h5{
     display: inline;
     font-size: 1em;
+   
     
  }
 
 .c1 {
     grid-area: main;
-    background-color: blueviolet;
+    border-radius: 1em;
     height:17em;
-
+    background-color: blueviolet;
+    background-image: url(../img/image\ placeholder.png);
+    background-size: contain;
 
 }
 
 .c2 {
     grid-area: left;
-    background-color: aquamarine;
+    border-radius: 1em; 
     height: 15em;
-
+    background-color: aquamarine;
+    background-image: url(../img/image\ placeholder.png);
+    background-size: contain;
 
 }
 
 .c3 {
     grid-area: centre;
-    background-color: bisque;
+    border-radius: 1em;
     height: 15em;
+    background-color: bisque;
+    background-image: url(../img/image\ placeholder.png);
+    background-size: contain;
 }
 
 .c4 {
-    grid-template-rows: 30em;
+    border-radius: 1em;
     grid-area: right;
-    background-color: aquamarine;
     height: 15em;
+    background-color: aquamarine;
+    background-image: url(../img/image\ placeholder.png);
+    background-size: contain;
 }
 
 body {
