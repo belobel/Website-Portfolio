@@ -1,6 +1,7 @@
 header{
     grid-area: header;
-    background-color: blue;
+    
+    
     
   
 }
@@ -14,14 +15,18 @@ h1{
  h2{
     display: inline;
     font-size: 1em;
-    padding-left: 36em;
+    padding-left: 30em;
     padding-right: 3em;
+    text-decoration: underline;
+    text-decoration-color:#D4AF37;
      
         }
  h3{
     display: inline;
     font-size: 1em; 
     padding-right: 3em;
+    text-decoration: underline;
+    text-decoration-color:#D4AF37;
    
  }
  
@@ -29,42 +34,56 @@ h1{
     display: inline;
     font-size: 1em;
     padding-right:3em;
+    text-decoration: underline;
+    text-decoration-color:#D4AF37;
  }
  h5{
     display: inline;
     font-size: 1em;
+    text-decoration: underline;
+    text-decoration-color:#D4AF37;
     
  }
 
 .c1 {
     grid-area: left;
-    background-color: blueviolet;
-    height:35em;
-
+    height:34em;
+    border-radius: 1em; 
+    background-color: #D4F9B8;
+    box-shadow: 0.6em 0.35em #006D5B;
+    
 
 }
 
 .c2 {
     grid-area: centre;
-    background-color: aquamarine;
-    height: 35em;
-
+    height: 34em;
+    border-radius: 1em;
+    background-color: #D4F9B8;
+    box-shadow: 0.6em 0.35em #006D5B;
+    ;
 
 }
 
 .c3 {
     grid-area: right;
-    background-color: bisque;
-    height: 35em;
+    height: 34em;
+    border-radius: 1em; 
+    background-color: #D4F9B8;
+    box-shadow: 0.6em 0.35em #006D5B;
+    
+   
 }
 
 
 body{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 30% 30% 30%;
     grid-template-areas:
         "header header header"
         "left centre right";
     row-gap: 2em;
     column-gap: 1.5em; 
+    padding-left: 5em;
+    
 }
