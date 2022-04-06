@@ -1,13 +1,10 @@
 .left{
 grid-area: left;
-height: 34.5em; 
-width: 15em;
-border-radius: 1em;
-background-color: #1a512e;
-background-image: url(../img/gg2.png);
-background-size: 82em;
 
-padding: 5em;
+width: 10em;
+border-radius: 1em;
+
+padding: 10em;
 text-align: center;
 }
 
@@ -21,7 +18,9 @@ body {
     grid-template-columns: auto auto auto;
     grid-template-areas:
    "left right right";
-   background-color: black;
+   
+   background-image: url(../img/splash.png);
+   background-size: cover;
 
 }
 form{
@@ -30,7 +29,7 @@ form{
     resize: none;
     height: 5em;
     padding: 4em;
-    padding-left: 12em;
+    color: #B48967;
     font-weight: bold;
     font-size: larger;
 }
@@ -39,22 +38,21 @@ textarea{
     resize: none;
     width: 30em;
     height: 10em;
-    border: 2px solid #E93BE9;
+    border: 2px solid #B48967;
 }
 
 input {
-    border: 2px solid #E93BE9;
-    color: #fff;
+    border: 2px solid #B48967;
     height: 2em;
     width: 30em;
 
     }
     input::placeholder {
-    color: #ccc;
+    color: grey;
     }
 
     input[type=button], input[type=submit], input[type=reset] {
-        background-color:#E93BE9;
+        background-color:#B48967;
         border: none;
         color: white;
         width: 30.5em;
@@ -68,27 +66,37 @@ header{
    
 h1{
 display: inline;
-padding-left: 10em;
 padding-right: 3em;
 font-size: 1.2em;
-
+color: white;
+    text-decoration: underline;
+text-decoration-color:#D4AF37;
 }
 
 h2{
     display: inline;
     padding-right: 3em;
     font-size: 1.2em;
+    color: white;
+    text-decoration: underline;
+text-decoration-color:#D4AF37;
 }
 
 h3{
 display: inline;
 padding-right: 3em;
 font-size: 1.2em;
+color: white;
+    text-decoration: underline;
+text-decoration-color:#D4AF37;
 }
 
 h4{
 display: inline;
     font-size: 1.2em;
+    color: white;
+    text-decoration: underline;
+text-decoration-color:#D4AF37;
 }
 
 p1{
@@ -100,7 +108,7 @@ color: white;
 
 p2{
 display:block;
-padding: 3em;
+padding: 2em;
 font-size: 1.5em;
 font-weight: bold;
 color: white;
@@ -113,7 +121,7 @@ color: white;
 
 p4{
     display: block;
-    padding: 3em;
+    padding: 2em;
     font-size: 1.5em;
     font-weight: bold;
     color: white;
