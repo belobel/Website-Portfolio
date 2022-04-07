@@ -39,7 +39,10 @@ header{
    
     
  }
-
+ a:visited {
+     color: black;
+    }
+    
 .c1 {
     grid-area: main;
     border-radius: 1em;

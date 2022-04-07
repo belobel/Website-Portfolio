@@ -6,18 +6,16 @@ h1{
  h2{
     display: inline;
     font-size: 1em;
-    padding-left: 30em;
+    padding-left: 37em;
     padding-right: 3em;
-    text-decoration: underline;
-    text-decoration-color:#D4AF37;
      
-        }
+  }
+
  h3{
     display: inline;
     font-size: 1em; 
     padding-right: 3em;
-    text-decoration: underline;
-    text-decoration-color:#D4AF37;
+  
    
  }
  
@@ -25,14 +23,12 @@ h1{
     display: inline;
     font-size: 1em;
     padding-right:3em;
-    text-decoration: underline;
-    text-decoration-color:#D4AF37;
+   
  }
  h5{
     display: inline;
     font-size: 1em;
-    text-decoration: underline;
-    text-decoration-color:#D4AF37;
+   
     
  }
 
@@ -48,3 +44,12 @@ h1{
      display: inline;
      text-align: left;
  }
+
+
+
+ a:visited {
+   color: black;
+   text-decoration: underline;
+   text-decoration-color:#D4AF37;
+ }
+ 

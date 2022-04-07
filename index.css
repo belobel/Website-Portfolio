@@ -6,38 +6,34 @@ body{
  
  
  h1{
-     color: #D4AF37;
+     
     display: inline;
     font-size: 1.2em;
     padding-left: 30em;
     padding-right: 3em;
-    text-decoration: underline;
-    text-decoration-color: #B48967;
+    
         }
         h2{
-            color:  #D4AF37;
+            
             display: inline;
             font-size: 1.2em;
             padding-right:3em;
-            text-decoration: underline;
-            text-decoration-color: #B48967;
+            
          }  
  h3{
-    color:#D4AF37;
+   
     display: inline;
     font-size: 1.2em; 
     padding-right: 3em;
-    text-decoration: underline;
-    text-decoration-color: #B48967;
+   
  }
  
  h4{
-    color: #D4AF37;
+    
     display: inline;
     font-size: 1.2em;
     padding-right:3em;
-    text-decoration: underline;
-    text-decoration-color: #B48967 ;
+  
  }
 
 h5{
@@ -49,6 +45,11 @@ h5{
     color: white;
  
 
+}
+a:visited {
+   color: #D4AF37;
+   text-decoration: underline;
+    text-decoration-color: #B48967;
 }
 
 p1{
