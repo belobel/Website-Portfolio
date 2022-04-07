@@ -20,32 +20,16 @@ body{
             padding-right:3em;
             
          }  
- h3{
-   
-    display: inline;
-    font-size: 1.2em; 
-    padding-right: 3em;
-   
- }
- 
- h4{
-    
-    display: inline;
-    font-size: 1.2em;
-    padding-right:3em;
-  
- }
 
-h5{
+h3{
    font-style: oblique;
    padding-top: 1em;
     padding-left: 7em;
     font-size: 5em;
     font-weight: bold;
     color: white;
- 
+    }
 
-}
 a:visited {
    color: #D4AF37;
    text-decoration: underline;
@@ -57,8 +41,5 @@ p{
     color: white;
     font-size: large;
    padding-left: 30em;
-    
-   
-  
 }
 
