@@ -27,18 +27,6 @@ header{
    
  }
  
- h4{
-    display: inline;
-    font-size: 1em;
-    padding-right:3em;
-   
- }
- h5{
-    display: inline;
-    font-size: 1em;
-   
-    
- }
  a:visited {
      color: black;
     }

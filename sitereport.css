@@ -16,25 +16,10 @@ h1{
     font-size: 1em; 
     padding-right: 3em;
   
-   
- }
- 
- h4{
-    display: inline;
-    font-size: 1em;
-    padding-right:3em;
-   
- }
- h5{
-    display: inline;
-    font-size: 1em;
-   
-    
  }
 
-
- h6{
-     padding: 2em;
+ h4{ 
+     padding:2em;
     font-size: 1em;
      text-align: center;
 
