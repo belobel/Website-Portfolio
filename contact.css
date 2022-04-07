@@ -1,15 +1,13 @@
-.left{
-grid-area: left;
-
-width: 10em;
+aside{
+grid-area: aside;
 border-radius: 1em;
-
-padding: 10em;
+padding: 8em;
 text-align: center;
+
 }
 
-.right{
-    grid-area: right;
+main{
+    grid-area: main;
 }
 
 
@@ -17,7 +15,7 @@ body {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-areas:
-   "left right right";
+   "aside main main";
    
    background-image: url(../img/splash.png);
    background-size: cover;
@@ -70,26 +68,7 @@ padding-right: 3em;
 font-size: 1.2em;
 }
 
-h2{
-    display: inline;
-    padding-right: 3em;
-    font-size: 1.2em;
 
-}
-
-h3{
-display: inline;
-padding-right: 3em;
-font-size: 1.2em;
-
-}
-
-h4{
-display: inline;
-    font-size: 1.2em;
-    
-  
-}
 
 a:visited {
     color: white;
@@ -97,35 +76,23 @@ a:visited {
     text-decoration-color:#D4AF37;
 }
 
-p1{
-font-size: 3em;
-font-weight: bolder;
-color: white;
-
-}
-
-p2{
-display:block;
-padding: 2em;
-font-size: 1.5em;
-font-weight: bold;
-color: white;
-}
-
-p3{
-font-size: 1.2em;
-color: white;
-}
-
-p4{
+h2{
     display: block;
-    padding: 2em;
+    font-size: 3em;
+    font-weight: bolder;
+    color: white; 
+    padding: 1em;
+    
+}
+h3{display:block;
+
     font-size: 1.5em;
     font-weight: bold;
     color: white;
 }
 
-p5{
-font-size: 1.2em;
-color: white;
+p{
+    font-size: 1.2em;
+    color: white; 
+   
 }

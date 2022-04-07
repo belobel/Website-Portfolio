@@ -43,7 +43,7 @@ header{
      color: black;
     }
     
-.c1 {
+.c1{
     grid-area: main;
     border-radius: 1em;
     height:17em;
@@ -53,7 +53,7 @@ header{
 
 }
 
-.c2 {
+.c2{
     grid-area: left;
     border-radius: 1em; 
     height: 15em;
