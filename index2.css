@@ -1,0 +1,50 @@
+
+
+
+     
+    body{
+    background-image: url(../img/satin.jpg);
+    background-size: cover;
+    
+    } 
+
+
+     
+  h1{
+      
+     display: inline;
+     font-size: 1.2em;
+     padding-left: 30em;
+     padding-right: 3em;
+     
+         }
+         h2{
+             
+             display: inline;
+             font-size: 1.2em;
+             padding-right:3em;
+             
+          }  
+ 
+ h3{
+    font-style: oblique;
+    padding-top: 1em;
+     padding-left: 7em;
+     font-size: 5em;
+     font-weight: bold;
+     color: white;
+     }
+ 
+ a:visited {
+    color: #D4AF37;
+    text-decoration: underline;
+     text-decoration-color: #B48967;
+ }
+ 
+ p{
+  display: block;
+     color: white;
+     font-size: large;
+    padding-left: 30em;
+ }
+

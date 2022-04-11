@@ -1,8 +1,9 @@
 body{
     
-   background-image: url(../img/satin.jpg);
-   
+   background-image: url(../img/silk.webp);
+background-size: cover;
 }
+
  
  
  h1{
