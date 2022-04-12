@@ -1,16 +1,26 @@
 body{
     
    background-image: url(../img/silk.webp);
-background-size: cover;
+background-size:cover;
+background-repeat: no-repeat;
+grid-template-areas: "nav nav nav";
 }
 
- 
+nav{ grid-area: header;
+   text-align: center;
+}
+.hamburger{
+visibility:collapse;
+}
+.navbar{ display: none;
+
+}
+
  
  h1{
      
     display: inline;
     font-size: 1.2em;
-    padding-left: 30em;
     padding-right: 3em;
     
         }
@@ -43,4 +53,5 @@ p{
     font-size: large;
    padding-left: 30em;
 }
+
 
