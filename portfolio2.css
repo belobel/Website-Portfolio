@@ -3,23 +3,27 @@ header{
  
   
 }
-
-
- h1{
+h1{
     font-size: 3em;
     text-align: center;
 
- }    
-    
+ }  
+
+ h2{
+     display: none;
+ }
+
+ h3{
+     display: none;
+ }
 .c1{
     grid-area: main;
     border-radius: 1em;
     height:15em;
-  
-    min-width: none;
-    max-width:30em;
     background-image: url(image\ placeholder.png);
     background-size: contain;
+
+  
 
 }
 
@@ -27,11 +31,10 @@ header{
     grid-area: left;
     border-radius: 1em; 
     height: 15em;
-
-    min-width: none;
-    max-width:30em;
+ 
     background-image: url(image\ placeholder.png);
     background-size: contain;
+    
 
 }
 
@@ -39,32 +42,32 @@ header{
     grid-area: centre;
     border-radius: 1em;
     height: 15em;
-
-    min-width: none;
-    max-width:30em;
     background-image: url(image\ placeholder.png);
     background-size: contain;
+    
+   
 }
 
 .c4 {
     border-radius: 1em;
     grid-area: right;
     height: 15em;
-    min-width: none;
-    max-width:30em;
     background-image: url(image\ placeholder.png);
     background-size: contain;
+
+ 
 }
 
 body {
     display: grid;
-    grid-template-columns:auto;
+    grid-template-columns:100%;
     grid-template-areas:
-        "header header header"
-        "main main main"
-        "left left left"
-        "centre centre centre"
-        "right right right";
+        "header "
+        "main"
+        "left"
+        "centre"
+        "right";
     row-gap: 4em;
+ 
     }
 

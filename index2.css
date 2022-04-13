@@ -23,11 +23,11 @@ p{
 
   } 
 
+  nav{
+    display: none;
+ }
 
 
-nav{
-   display: none;
-}
 
 .hamburger{
    visibility: visible;
