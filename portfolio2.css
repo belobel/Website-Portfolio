@@ -10,33 +10,14 @@ header{
     text-align: center;
 
  }    
- 
- h2{
-    display: inline;
-    font-size: 1em;
-    padding-left: 36em;
-    padding-right: 3em;
-     
-}
-
- h3{
-    display: inline;
-    font-size: 1em; 
-    padding-right: 3em;
-   
-   
- }
- 
- a:visited {
-    color: black;
-    text-decoration-color:#D4AF37; 
-    }
     
 .c1{
     grid-area: main;
     border-radius: 1em;
-    height:16em;
-   
+    height:15em;
+  
+    min-width: none;
+    max-width:30em;
     background-image: url(image\ placeholder.png);
     background-size: contain;
 
@@ -46,7 +27,9 @@ header{
     grid-area: left;
     border-radius: 1em; 
     height: 15em;
-   
+
+    min-width: none;
+    max-width:30em;
     background-image: url(image\ placeholder.png);
     background-size: contain;
 
@@ -56,7 +39,9 @@ header{
     grid-area: centre;
     border-radius: 1em;
     height: 15em;
-   
+
+    min-width: none;
+    max-width:30em;
     background-image: url(image\ placeholder.png);
     background-size: contain;
 }
@@ -65,21 +50,21 @@ header{
     border-radius: 1em;
     grid-area: right;
     height: 15em;
-    
+    min-width: none;
+    max-width:30em;
     background-image: url(image\ placeholder.png);
     background-size: contain;
 }
 
 body {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:auto;
     grid-template-areas:
         "header header header"
         "main main main"
-        "left centre right";
-    row-gap: 2em;
-    column-gap: 1.5em;
+        "left left left"
+        "centre centre centre"
+        "right right right";
+    row-gap: 4em;
+    }
 
- 
-
-}
