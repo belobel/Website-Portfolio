@@ -47,7 +47,7 @@ p{
    border: none;
    cursor: pointer;
    /* position absolute position the icons relative to the body because they have no position relative parents*/
-   position: absolute;
+   position:fixed;
    top: 20px;
    right: 20px;
    width: 36px;
@@ -68,7 +68,7 @@ p{
  }
  
  .navbar {
-   position: absolute;
+   position: fixed;
    /* a higher z-index put navbar above hamburger */
    z-index: 1000;
    top: 0;
