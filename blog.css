@@ -6,6 +6,11 @@ header{
   
 }
 
+.hamburger{
+visibility:collapse;
+}
+.navbar{ display: none;
+}
 
 h1{
     font-size: 3em;

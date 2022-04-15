@@ -61,7 +61,13 @@ input {
 nav{
     padding: 2em;
 }
-   
+.hamburger{
+    visibility:collapse;
+    }
+    .navbar{ display: none;
+    
+    }
+     
 h1{
 display: inline;
 padding-right: 3em;
