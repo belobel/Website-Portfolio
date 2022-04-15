@@ -3,9 +3,16 @@ body{
 background-image: url(silk.webp);
 background-size: cover;
 background-repeat: round;
-
+animation: fade 5s ease 1 forwards;
 }
- 
+@keyframes fade{
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+   }
+} 
 h3{
    font-style: oblique;
    padding-top: 1em;
@@ -13,8 +20,20 @@ h3{
     font-size: 5em;
     font-weight: bold;
     color: white;
+    animation: bounce 1s 5 ;
     }
 
+ 
+
+  @keyframes bounce{
+    from{
+ transform: translateY(0%);
+    }
+    to{
+ transform: translateY(-20%);
+    }
+ }
+ 
 p{
    display: block;
    color: white;

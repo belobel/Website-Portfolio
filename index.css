@@ -4,7 +4,20 @@ body{
 background-size:cover;
 background-repeat: no-repeat;
 grid-template-areas: "nav nav nav";
+
+
+animation: fade 5s ease 1 forwards;
 }
+
+@keyframes fade{
+   0% {
+       opacity: 0;
+   }
+   100% {
+       opacity: 1;
+    }
+}
+
 
 nav{ grid-area: header;
    text-align: center;
@@ -38,8 +51,21 @@ h3{
     padding-left: 7em;
     font-size: 5em;
     font-weight: bold;
-    color: white;
+     color: white;
+     
+animation: bounce 1s 5 ;
+
     }
+
+
+    @keyframes bounce{
+      from{
+   transform: translateY(0%);
+      }
+      to{
+   transform: translateY(-20%);
+      }
+   }
 
 a:visited {
    color: #D4AF37;
@@ -52,6 +78,8 @@ p{
     color: white;
     font-size: large;
    padding-left: 30em;
+
 }
+
 
 
