@@ -19,9 +19,14 @@ h1{
     text-decoration-color:#D4AF37;
  }
 
+ h4{
+  font-size: large;
+   text-align: center;
+}
+
 .c1 {
     grid-area: left;
-    height:34em;
+ height: auto;
     border-radius: 1em; 
     background-color: #D4F9B8;
     box-shadow: 0.6em 0.35em #006D5B;
@@ -31,17 +36,17 @@ h1{
 
 .c2 {
     grid-area: centre;
-    height: 34em;
+   height: auto;
     border-radius: 1em;
     background-color: #D4F9B8;
     box-shadow: 0.6em 0.35em #006D5B;
-    ;
+    
 
 }
 
 .c3 {
     grid-area: right;
-    height: 34em;
+    height: auto;
     border-radius: 1em; 
     background-color: #D4F9B8;
     box-shadow: 0.6em 0.35em #006D5B;
@@ -60,6 +65,7 @@ body{
         "right";
     row-gap: 2em;
     column-gap: 1.5em; 
+    
     
 }
 
