@@ -68,7 +68,9 @@ background-repeat: no-repeat;
  }
  
 
-
+ html {
+  scroll-behavior: smooth;
+}
 
 
 

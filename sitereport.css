@@ -71,4 +71,7 @@ background-repeat: no-repeat;
   "main main main"
   "c1 c1 c1" ;
  }
+ html {
+  scroll-behavior: smooth;
+}
  
