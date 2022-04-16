@@ -33,7 +33,7 @@ h1{
 
  p{
      display: inline;
-     text-align: left;
+     
  }
 
 
@@ -44,8 +44,31 @@ h1{
    text-decoration-color:#D4AF37;
  }
 
+ header{
+   grid-area: header;
+ }
+ main{
+   grid-area: main;
+ }
+
+aside{
+grid-area: c1;
+height: 50em;
+background-image: url(site\ progress.png);
+background-size: contain;
+background-repeat: no-repeat;
+
+
+
+}
+
  body{
   background-color: #D4F9B8;
   text-align: justify;
+  grid-template-columns: auto auto auto;
+  grid-template-areas: 
+  "header header header"
+  "main main main"
+  "c1 c1 c1" ;
  }
  

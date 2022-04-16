@@ -1,3 +1,80 @@
+
+h1{
+    font-size: 3em;
+    text-align: center;
+ }    
+ 
+ h2{
+    display: inline;
+    font-size: 1em;
+    padding-left: 37em;
+    padding-right: 3em;
+     
+  }
+
+ h3{
+    display: inline;
+    font-size: 1em; 
+    padding-right: 3em;
+  
+ }
+
+ h4{ 
+     padding:2em;
+    font-size: 1em;
+     text-align: center;
+
+ }
+
+ p{
+     display: inline;
+     
+ }
+
+
+
+ a:visited {
+   color: black;
+   text-decoration: underline;
+   text-decoration-color:#D4AF37;
+ }
+
+ header{
+   grid-area: header;
+ }
+ main{
+   grid-area: main;
+ }
+
+aside{
+grid-area: c1;
+height: 50em;
+background-image: url(site\ progress.png);
+background-size: contain;
+background-repeat: no-repeat;
+
+
+
+}
+
+ body{
+  background-color: #D4F9B8;
+  text-align: justify;
+  grid-template-columns: 100%;
+  grid-template-areas: 
+  "header header header"
+  "main main main"
+  "c1 c1 c1" ;
+ }
+ 
+
+
+
+
+
+
+
+
 nav{
     display: none;
  }
