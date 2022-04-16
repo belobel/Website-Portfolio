@@ -40,7 +40,7 @@ visibility:collapse;
 .c1{
     grid-area: main;
     border-radius: 1em;
-    height:16em;
+    height:14em;
    
     background-image: url(image\ placeholder.png);
     background-size: contain;
