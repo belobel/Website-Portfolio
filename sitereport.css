@@ -57,10 +57,25 @@ height: 50em;
 background-image: url(site\ progress.png);
 background-size: contain;
 background-repeat: no-repeat;
-
-
-
 }
+.validation{
+  grid-area: c2;
+  height: 50em;
+background-image: url(site\ progress.png);
+background-size: contain;
+background-repeat: no-repeat;
+  }
+  
+  
+  .validation1{
+  grid-area: c3;
+  height: 50em;
+background-image: url(site\ progress.png);
+background-size: contain;
+background-repeat: no-repeat;
+  }
+
+
 
  body{
   background-color: #D4F9B8;
@@ -69,7 +84,9 @@ background-repeat: no-repeat;
   grid-template-areas: 
   "header header header"
   "main main main"
-  "c1 c1 c1" ;
+  "c1 c1 c1"
+  "c2 c2 c2"
+  "c3 c3 c3";
  }
  html {
   scroll-behavior: smooth;
