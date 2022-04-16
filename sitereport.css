@@ -61,7 +61,7 @@ background-repeat: no-repeat;
 .validation{
   grid-area: c2;
   height: 50em;
-background-image: url(site\ progress.png);
+background-image: url(html\ validation.png);
 background-size: contain;
 background-repeat: no-repeat;
   }
@@ -70,7 +70,7 @@ background-repeat: no-repeat;
   .validation1{
   grid-area: c3;
   height: 50em;
-background-image: url(site\ progress.png);
+background-image: url(css\ validation.png);
 background-size: contain;
 background-repeat: no-repeat;
   }
