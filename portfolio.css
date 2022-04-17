@@ -14,17 +14,13 @@ visibility:collapse;
     font-size: 3em;
     text-align: center;
 
- }    
+ }   
  
- h2{
-    display: inline;
-    font-size: 1em;
-    padding-left: 36em;
-    padding-right: 3em;
-     
-}
+ nav{ text-align: center;}
+ 
+ 
 
- h3{
+ h2{
     display: inline;
     font-size: 1em; 
     padding-right: 3em;

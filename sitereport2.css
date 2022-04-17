@@ -4,22 +4,16 @@ h1{
     text-align: center;
  }    
  
- h2{
-    display: inline;
-    font-size: 1em;
-    padding-left: 37em;
-    padding-right: 3em;
-     
-  }
+ 
 
- h3{
+ h2{
     display: inline;
     font-size: 1em; 
     padding-right: 3em;
   
  }
 
- h4{ 
+ h3{ 
      padding:2em;
     font-size: 1em;
      text-align: center;
